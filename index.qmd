@@ -1,0 +1,40 @@
+---
+title: "Juan Felipe Escobar — MBA Portfolio"
+author: "Juan Felipe Escobar"
+format:
+  html:
+    theme: darkly
+    toc: false
+    smooth-scroll: true
+    fontsize: 1.05em
+    page-layout: article
+    link-external-newwindow: true
+    anchor-sections: true
+css: styles.css
+---
+::: {.hero}
+
+
+![](headshot.jpg){style="width:240px;height:240px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 1rem;" fig-alt="Headshot of Juan Felipe Escobar"}
+
+
+:::
+::: {.column}
+# Juan Felipe Escobar — MBA Candidate (UCW)
+**Operations, Logistics & Customer Service**
+
+[Education](education.qmd)
+[Experience](experience.qmd){.pill .pill-amber}
+[Skills](skills.qmd){.pill .pill-blue}
+[References](references.qmd){.pill .pill-gray}
+[Contact](contact.qmd){.pill .pill-yellow}
+:::
+
+
+With international experience in Canada, the United States, and Colombia as an operations and logistics professional, I have been able to establish a career that is centered on process optimization, service efficiency, and team leadership towards success. My experience relied on critical thinking, strategic planning, and adapting to complex operating conditions. During the last years, I had control over the logistics processes, managed cross-functional teams, and introduced data-driven solutions that reinforced performance and customer satisfaction. 
+
+
+I am currently pursuing a Master of Business Administration at the University of Canada West, and I am deepening my knowledge in the field of supply chain, project management, and business analytics. I am looking to incorporate technology and data intelligence in the operations decisions to achieve sustainable growth and innovation. I am proud of my ability to promote cooperation, the pursuit of excellence, and responsibility in any team that I am in, and make sure that the business goals are realized effectively and in a sustainable way.
+
+
+`Operations Excellence` `Logistics` `Digital Transformation` `Customer Experience`

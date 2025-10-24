@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Juan Felipe Escobar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: experience.qmd
+        text: Experience
+      - href: education.qmd
+        text: Education
+      - href: references.qmd
+        text: References
+      - href: skills.qmd
+        text: Skills
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: darkly
+    toc: false
+    smooth-scroll: true
+    css: styles.css
+
+
+
+
