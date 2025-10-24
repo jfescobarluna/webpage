@@ -1,0 +1,35 @@
+/* css styles */
+.headshot {
+  width: 240px !important;
+  height: 240px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto 1rem !important;
+  box-shadow: 0 8px 18px rgba(0,0,0,.18) !important;
+}
+
+.pill {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 3px 8px rgba(0,0,0,.08);
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,.15);
+}
+
+.pill-green  { background: #b8e986; }
+.pill-amber  { background: #ffd06a; }
+.pill-blue   { background: #b8e3f4; }
+.pill-yellow { background: #ffe680; }
+.pill-gray   { background: #e0e0e0; }
