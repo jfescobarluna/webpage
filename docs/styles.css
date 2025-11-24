@@ -1,0 +1,201 @@
+:root {
+  /* theme variables (light by default). Toggling the `dark-theme` class on <html> switches to dark.
+     You can tweak --headshot-y to nudge the headshot vertically (lower = move image up) */
+  --headshot-y: 30%;
+  --body-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  /* light theme colors (default) */
+  --site-bg: #fbfbfb;       /* light page background */
+  --text-color: #0b1220;    /* dark navy text */
+  --muted: rgba(11,18,32,0.65);
+}
+
+/* Dark theme variables when .dark-theme is present on <html> */
+html.dark-theme {
+  --site-bg: #0b1220;       /* deep navy */
+  --text-color: #eef2f6;    /* soft light text */
+  --muted: rgba(230,238,248,0.65);
+}
+
+/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Typography */
+body, html {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: var(--site-bg);
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* Hero layout tweaks */
+.hero {
+  text-align: center;
+  padding: 2.25rem 0 1rem;
+  max-width: 900px;
+  margin: 0 auto 0.75rem;
+}
+:root {
+  /* adjust this value to nudge the headshot vertically (lower = move image up) */
+  --headshot-y: 30%;
+}
+
+.headshot {
+  width: 240px !important;
+  height: 240px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  /* use a CSS variable so you can tweak vertical offset quickly */
+  object-position: 50% var(--headshot-y) !important;
+  display: block !important;
+  margin: 0 auto 1rem !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45) !important;
+  border: 3px solid rgba(255,255,255,0.06) !important;
+}
+
+/* Larger square intro image variant that reuses headshot mechanics but
+   displays as a larger, squared image (use class: `headshot headshot-intro`) */
+.headshot.headshot-intro {
+  width: 720px !important;
+  height: 420px !important;
+  border-radius: 8px !important; /* slight rounding for polished look */
+  box-shadow: 0 18px 48px rgba(2,6,23,0.18) !important;
+  border: 2px solid rgba(0,0,0,0.04) !important;
+  margin-bottom: 1.25rem !important;
+}
+
+@media (max-width: 900px) {
+  .headshot.headshot-intro { width: 520px !important; height: 320px !important; }
+}
+@media (max-width: 576px) {
+  .headshot.headshot-intro { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
+}
+
+.pill {
+  display: inline-block;
+  margin: 0.35rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.06);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  color: #0b1220;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.2);
+}
+
+.pill:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(2,6,23,0.28);
+}
+
+/* Hero CTA button style (uses Bootstrap classes but ensures good contrast) */
+.hero .btn {
+  margin-top: 0.5rem;
+}
+
+/* small-screen adjustments */
+@media (max-width: 576px) {
+  .headshot { width: 200px !important; height: 200px !important; }
+  .hero { padding: 1.5rem 0 0.5rem; }
+}
+
+/* Hero / name styling to match a clean portfolio look */
+.column h1 {
+  font-size: 1.6rem;
+  line-height: 1.05;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.4px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.column p strong {
+  display: block;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.hero .pill, .column .pill {
+  color: #0b1220 !important;
+}
+
+/* Theme toggle button (small, unobtrusive) */
+#theme-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1050;
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+/* Projects preview under hero */
+.projects-preview {
+  max-width: 980px;
+  margin: 0 auto 1.25rem;
+  padding: 0 1rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+.project-card {
+  display: block;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 8px;
+  padding: 0.6rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 6px 20px rgba(2,6,23,0.18);
+  transition: transform 0.18s ease, box-shadow 0.18s;
+}
+.project-card:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(2,6,23,0.24); }
+.project-thumb {
+  height: 110px;
+  border-radius: 6px;
+  background: linear-gradient(135deg,#1f2937,#111827);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.85);
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.project-meta h4 { margin: 0 0 0.25rem 0; font-size: 1rem; }
+.project-meta p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+@media (max-width: 900px) {
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 576px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}
+
+.pill-green  { background: #b8e986; }
+.pill-amber  { background: #ffd06a; }
+.pill-blue   { background: #b8e3f4; }
+.pill-yellow { background: #ffe680; }
+.pill-gray   { background: #e0e0e0; }
+
+.pill-red      { background: #ffb3b3; }
+.pill-orange   { background: #ffcc99; }
+.pill-purple   { background: #d7b3ff; }
+.pill-teal     { background: #b2f0e9; }
+.pill-pink     { background: #ffc2e2; }
+.pill-brown    { background: #dcbfa6; }
+.pill-navy     { background: #b3c7ff; }
+.pill-lime     { background: #d9ffb3; }
+.pill-coral    { background: #ffb8a8; }
+.pill-sky      { background: #c7ecff; }
+
