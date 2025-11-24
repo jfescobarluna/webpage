@@ -17,10 +17,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Quarto and render site
-        uses: quarto-dev/quarto-action@v2
-        with:
-          command: render
+      - name: Install Quarto CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl gdebi-core
+          curl -L https://quarto.org/download/latest/quarto-linux-amd64.deb -o quarto.deb
+          sudo gdebi -n quarto.deb
+      - name: Render site
+        run: |
+          quarto render
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
@@ -28,7 +33,7 @@ jobs:
       - name: Upload _site directory as Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: _site
+          path: docs
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
