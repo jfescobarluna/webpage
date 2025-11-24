@@ -118,6 +118,24 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./leadership.html"> 
+<span class="menu-text">Leadership</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Juan-Escobar-Resume.pdf"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/"> 
+<span class="menu-text">LinkedIn</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -159,18 +177,55 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="hero">
-<p><img src="headshot.jpg" class="img-fluid" style="width:240px;height:240px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 1rem;" alt="Headshot of Juan Felipe Escobar"></p>
+<p><img src="headshot.jpg" class="headshot img-fluid" alt="Headshot of Juan Felipe Escobar"></p>
+<p>[<a href="Juan-Escobar-Resume.pdf" class="btn btn-outline-light btn-lg" target="_blank" rel="noopener">Resume</a> <a href="https://www.linkedin.com/in/juan-escobar-luna" class="btn btn-primary btn-lg ms-2" target="_blank" rel="noopener"><i class="bi bi-linkedin" style="margin-right:.45rem"></i>LinkedIn</a> <button id="theme-toggle" class="btn btn-outline-light btn-sm ms-2" title="Toggle light/dark theme">Theme</button>]</p>
 </div>
+<!-- Featured projects removed per user request -->
 <div class="column">
 <section id="juan-felipe-escobar-mba-candidate-ucw" class="level1">
 <h1>Juan Felipe Escobar — MBA Candidate (UCW)</h1>
 <p><strong>Operations, Logistics &amp; Customer Service</strong></p>
-<p><a href="./education.html">Education</a> <a href="./experience.html" class="pill pill-amber">Experience</a> <a href="./skills.html" class="pill pill-blue">Skills</a> <a href="./references.html" class="pill pill-gray">References</a> <a href="./contact.html" class="pill pill-yellow">Contact</a></p>
+<p><a href="education.html" class="pill pill-orange">Education</a> <a href="experience.html" class="pill pill-amber">Experience</a> <a href="skills.html" class="pill pill-blue">Skills</a> <a href="references.html" class="pill pill-gray">References</a> <a href="contact.html" class="pill pill-yellow">Contact</a> <a href="leadership.html" class="pill pill-teal">Leadership</a> <a href="projects.html" class="pill pill-navy">Projects</a></p>
 </section>
 </div>
 <p>With international experience in Canada, the United States, and Colombia as an operations and logistics professional, I have been able to establish a career that is centered on process optimization, service efficiency, and team leadership towards success. My experience relied on critical thinking, strategic planning, and adapting to complex operating conditions. During the last years, I had control over the logistics processes, managed cross-functional teams, and introduced data-driven solutions that reinforced performance and customer satisfaction.</p>
 <p>I am currently pursuing a Master of Business Administration at the University of Canada West, and I am deepening my knowledge in the field of supply chain, project management, and business analytics. I am looking to incorporate technology and data intelligence in the operations decisions to achieve sustainable growth and innovation. I am proud of my ability to promote cooperation, the pursuit of excellence, and responsibility in any team that I am in, and make sure that the business goals are realized effectively and in a sustainable way.</p>
 <p><code>Operations Excellence</code> <code>Logistics</code> <code>Digital Transformation</code> <code>Customer Experience</code></p>
+<script>
+  (function(){
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    const root = document.documentElement;
+    const setMode = (mode) => {
+      if (mode === 'dark') {
+        root.classList.add('dark-theme');
+        btn.textContent = 'Dark';
+        btn.classList.remove('btn-outline-dark');
+        btn.classList.add('btn-outline-light');
+      } else {
+        root.classList.remove('dark-theme');
+        btn.textContent = 'Light';
+        btn.classList.remove('btn-outline-light');
+        btn.classList.add('btn-outline-dark');
+      }
+      try { localStorage.setItem('site-theme', mode); } catch(e){}
+    };
+    // initialize from storage or prefer-color-scheme
+    let saved = null;
+    try { saved = localStorage.getItem('site-theme'); } catch(e){}
+    if (saved) {
+      setMode(saved);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setMode('dark');
+    } else {
+      setMode('light');
+    }
+    btn.addEventListener('click', () => {
+      const current = root.classList.contains('dark-theme') ? 'dark' : 'light';
+      setMode(current === 'dark' ? 'light' : 'dark');
+    });
+  })();
+</script>
 
 
 
@@ -248,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jfescobarluna\.github\.io\/webpage\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

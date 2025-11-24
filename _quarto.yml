@@ -5,19 +5,28 @@ website:
   title: "Juan Felipe Escobar"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.html
         text: Home
-      - href: experience.qmd
+      - href: experience.html
         text: Experience
-      - href: education.qmd
+      - href: education.html
         text: Education
-      - href: references.qmd
+      - href: references.html
         text: References
-      - href: skills.qmd
+      - href: skills.html
         text: Skills
-      - href: contact.qmd
+      - href: contact.html
         text: Contact
-
+      - href: leadership.html
+        text: Leadership
+      - href: projects.html
+        text: Projects
+      
+    right:
+      - href: "Juan-Escobar-Resume.pdf"
+        text: Resume
+      - href: https://www.linkedin.com/
+        text: LinkedIn
 format:
   html:
     theme: darkly

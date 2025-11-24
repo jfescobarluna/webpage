@@ -1,0 +1,12 @@
+---
+title: "Leadership & Professional Growth"
+---
+
+# Leadership & Professional Growth
+
+
+
+<!-- Team photo added by request. Place `Asama1.jpg` in the project folder (same folder as this file or `_resources`) -->
+<img src="Asama1.jpg" alt="Team meeting — Asama" class="headshot headshot-intro img-fluid" />
+
+I have been on top of diverse teams, including high skilled professionals with different backgrounds, Taking the group to the next Level.

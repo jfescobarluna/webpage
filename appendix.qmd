@@ -1,0 +1,9 @@
+---
+title: "Appendix – Portfolio Development"
+---
+
+# Appendix – Portfolio Development
+
+This page will document how this portfolio was designed and built, including the site map and LLM support.
+
+More content will be added here.
