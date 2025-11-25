@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Juan Felipe Escobar — MBA Portfolio",
-    "section": "",
-    "text": "[Resume LinkedIn Theme]\n\n\n\n\nJuan Felipe Escobar — MBA Candidate (UCW)\nOperations, Logistics & Customer Service\nEducation Experience Skills References Contact Leadership Projects\n\n\nWith international experience in Canada, the United States, and Colombia as an operations and logistics professional, I have been able to establish a career that is centered on process optimization, service efficiency, and team leadership towards success. My experience relied on critical thinking, strategic planning, and adapting to complex operating conditions. During the last years, I had control over the logistics processes, managed cross-functional teams, and introduced data-driven solutions that reinforced performance and customer satisfaction.\nI am currently pursuing a Master of Business Administration at the University of Canada West, and I am deepening my knowledge in the field of supply chain, project management, and business analytics. I am looking to incorporate technology and data intelligence in the operations decisions to achieve sustainable growth and innovation. I am proud of my ability to promote cooperation, the pursuit of excellence, and responsibility in any team that I am in, and make sure that the business goals are realized effectively and in a sustainable way.\nOperations Excellence Logistics Digital Transformation Customer Experience"
-  },
-  {
     "objectID": "skills.html",
     "href": "skills.html",
     "title": "Skills",
@@ -21,18 +14,18 @@
     "text": "Projects & Case Studies\nI carried out a diagnosis on the health-tourism industry of the Metropolitan Area of Bucaramanga. The background of my work was an analysis of the competitive advantages, market demand, and operational problems in the region based on surveys, interviews, and data on the sector. The research was able to find the structure gaps in the service coordination, international promotion, and standardized service packages.\nThe results presented useful recommendations to local institutions and service providers, for planning purposes, and the potential clients to be reached. As this sector presented opportunities to be a potential enhancer of regional development.\nAriza Arias, A. J., & Escobar Luna, J. F. (2015). Diagnosis of health tourism in the Metropolitan Area of Bucaramanga (Undergraduate thesis, Universidad Industrial de Santander). ."
   },
   {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Professional Experience",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Juan Felipe Escobar — MBA Portfolio",
     "section": "",
-    "text": "Professional Experience\n\nBuilding Manager Jr\nThe Good Caretaker – Vancouver, Canada\nNov 2023 – Present\n\nSupervise daily operations and maintenance of building facilities to ensure a safe, clean, and efficient environment for residents.\n\nAddress residents’ inquiries and concerns, providing excellent customer service and resolving issues related to amenities and services.\n\nBuild and maintain relationships with contractors, ensuring contract compliance and high-quality service delivery.\n\nEnsure compliance with all local strata regulations, including health, safety, and environmental standards.\n\n\n\n\nOperations Manager\nASAMA Solutions – TSG Fleet/ISG Inc – Los Angeles, USA\nNov 2021 – Oct 2023\n\nDeveloped and implemented operational strategies to optimize logistics, inventory, and supply chain processes.\n\nManaged budgets and resources, ensuring cost-effective operations while maintaining service quality.\n\nOversaw daily operations, monitored KPIs, and improved dispatch efficiency.\n\nConducted performance evaluations and led staff training, fostering a culture of continuous improvement.\n\nPrepared logistics and cost analysis reports to support strategic decision-making.\n\n\n\n\nLogistics Coordinator\nConvoy – Seattle, USA\nOct 2021 – Oct 2023\n\nPlanned and supervised logistics operations to optimize efficiency and meet delivery timelines.\n\nGathered and analyzed logistics data to enhance decision-making and process performance.\n\nCoordinated shipments, monitored stock levels, and managed inventory to prevent shortages or overstocking.\n\nImplemented process improvements to streamline operations and reduce costs.\n\nCollaborated with warehouse, transportation, and customer service teams for seamless logistics execution.\n\n\n\n\nSupernumerary - Assistant Manager\nBanco Caja Social – Bucaramanga, Colombia\nOct 2019 – Sept 2021\n\nSupported branch operations by assisting in cash handling, customer service, and administrative duties.\n\nEnsured compliance with banking protocols, maintaining accuracy and data integrity.\n\nProvided temporary assistance to various departments during high-demand periods.\n\nParticipated in continuous training on bank policies and operational systems."
+    "text": "[Resume LinkedIn Theme]\n\n\n\n\nJuan Felipe Escobar — MBA Candidate (UCW)\nOperations, Logistics & Customer Service\nEducation Experience Skills References Contact Leadership Projects\n\n\nWith international experience in Canada, the United States, and Colombia as an operations and logistics professional, I have been able to establish a career that is centered on process optimization, service efficiency, and team leadership towards success. My experience relied on critical thinking, strategic planning, and adapting to complex operating conditions. During the last years, I had control over the logistics processes, managed cross-functional teams, and introduced data-driven solutions that reinforced performance and customer satisfaction.\nI am currently pursuing a Master of Business Administration at the University of Canada West, and I am deepening my knowledge in the field of supply chain, project management, and business analytics. I am looking to incorporate technology and data intelligence in the operations decisions to achieve sustainable growth and innovation. I am proud of my ability to promote cooperation, the pursuit of excellence, and responsibility in any team that I am in, and make sure that the business goals are realized effectively and in a sustainable way.\nOperations Excellence Logistics Digital Transformation Customer Experience"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
     "section": "",
-    "text": "Contact\nFeel free to reach out through any of the following channels:\n\nEmail: juan.escobarluna@email.com\nLinkedIn: linkedin.com/in/jfescobarluna\nLocation: Vancouver, BC, Canada"
+    "text": "Education\n\nMaster of Business Administration (MBA)\nUniversity Canada West – Vancouver, Canada\nExpected Graduation: April 2026\nCurrently pursuing an MBA focused on leadership, digital transformation, and operations management.\nDegree in Economics\nUniversidad Industrial de Santander – Bucaramanga, Colombia\nGraduated: December 2016\nFocused on data analysis, financial management, and economic policy.\n\n\n\n\nCertifications\n\nGoogle Data Analytics Professional Certificate – Google"
   },
   {
     "objectID": "appendix.html",
@@ -42,11 +35,18 @@
     "text": "Appendix – Portfolio Development\nThis page will document how this portfolio was designed and built, including the site map and LLM support.\nMore content will be added here."
   },
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Education\n\nMaster of Business Administration (MBA)\nUniversity Canada West – Vancouver, Canada\nExpected Graduation: April 2026\nCurrently pursuing an MBA focused on leadership, digital transformation, and operations management.\nDegree in Economics\nUniversidad Industrial de Santander – Bucaramanga, Colombia\nGraduated: December 2016\nFocused on data analysis, financial management, and economic policy.\n\n\n\n\nCertifications\n\nGoogle Data Analytics Professional Certificate – Google"
+    "text": "Contact\nFeel free to reach out through any of the following channels:\n\nEmail: juan.escobarluna@email.com\nLinkedIn: linkedin.com/in/jfescobarluna\nLocation: Vancouver, BC, Canada"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "Professional Experience\n\nBuilding Manager Jr\nThe Good Caretaker – Vancouver, Canada\nNov 2023 – Present\n\nSupervise daily operations and maintenance of building facilities to ensure a safe, clean, and efficient environment for residents.\n\nAddress residents’ inquiries and concerns, providing excellent customer service and resolving issues related to amenities and services.\n\nBuild and maintain relationships with contractors, ensuring contract compliance and high-quality service delivery.\n\nEnsure compliance with all local strata regulations, including health, safety, and environmental standards.\n\n\n\n\nOperations Manager\nASAMA Solutions – TSG Fleet/ISG Inc – Los Angeles, USA\nNov 2021 – Oct 2023\n\nDeveloped and implemented operational strategies to optimize logistics, inventory, and supply chain processes.\n\nManaged budgets and resources, ensuring cost-effective operations while maintaining service quality.\n\nOversaw daily operations, monitored KPIs, and improved dispatch efficiency.\n\nConducted performance evaluations and led staff training, fostering a culture of continuous improvement.\n\nPrepared logistics and cost analysis reports to support strategic decision-making.\n\n\n\n\nLogistics Coordinator\nConvoy – Seattle, USA\nOct 2021 – Oct 2023\n\nPlanned and supervised logistics operations to optimize efficiency and meet delivery timelines.\n\nGathered and analyzed logistics data to enhance decision-making and process performance.\n\nCoordinated shipments, monitored stock levels, and managed inventory to prevent shortages or overstocking.\n\nImplemented process improvements to streamline operations and reduce costs.\n\nCollaborated with warehouse, transportation, and customer service teams for seamless logistics execution.\n\n\n\n\nSupernumerary - Assistant Manager\nBanco Caja Social – Bucaramanga, Colombia\nOct 2019 – Sept 2021\n\nSupported branch operations by assisting in cash handling, customer service, and administrative duties.\n\nEnsured compliance with banking protocols, maintaining accuracy and data integrity.\n\nProvided temporary assistance to various departments during high-demand periods.\n\nParticipated in continuous training on bank policies and operational systems."
   },
   {
     "objectID": "leadership.html",
